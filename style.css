@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.flex-item {
+  padding: 10px;
+}
+
+img {
+  width: 35%;
+  height: 80%;
+}
+
+.caption {
+  width: 450px;
+  margin-top: 50px;
+}
+
+.caption h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.minCon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.drive {
+  width: 195px;
+}
+
+.ride {
+  width: 195px;
+}
+
+.btn {
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 5px;
+}
