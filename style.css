@@ -19,26 +19,30 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .flex-item {
-  padding: 10px;
+  padding: 2px;
 }
 
 img {
-  width: 35%;
-  height: 80%;
+  width: 40%;
+  /* height: 5%; */
+}
+
+.photo {
+  width: 100%;
+  height: 50%;
 }
 
 .caption {
-  width: 450px;
+  width: 40%;
   margin-top: 50px;
 }
 
 .caption h1 {
   font-size: 3.5rem;
-  text-align: center;
 }
 
 .option {
@@ -47,18 +51,17 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 100px;
+  width: 30%;
 }
 
 .minCon {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
-.drive {
-  width: 195px;
-}
-
+.drive,
 .ride {
   width: 195px;
 }
