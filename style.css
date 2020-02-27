@@ -26,14 +26,22 @@
   padding: 2px;
 }
 
-.photo img {
-  width: 40%;
-  height: 300px;
+.minCon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 45%;
+  background-color: yellow;
 }
 
-.photo {
-  width: 100%;
-  height: 400px;
+.photo img {
+  width: 45%;
+  height: 500px;
+  background-color: teal;
+  background-position: center;
+  background-size: cover;
+  margin-top: 15px;
 }
 
 .caption {
@@ -54,13 +62,6 @@
   width: 30%;
 }
 
-.minCon {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-}
 .drive,
 .ride {
   width: 195px;
