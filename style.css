@@ -31,22 +31,23 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 45%;
-  background-color: yellow;
+  width: 50%;
 }
 
-.photo img {
-  width: 45%;
-  height: 500px;
-  background-color: teal;
+img {
+  width: 100%;
+  height: 600px;
   background-position: center;
   background-size: cover;
-  margin-top: 15px;
+}
+
+.photo {
+  width: 50%;
 }
 
 .caption {
-  width: 40%;
-  margin-top: 50px;
+  width: 70%;
+  margin-top: 25%;
 }
 
 .caption h1 {
@@ -59,7 +60,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 100px;
-  width: 30%;
+  width: 60%;
 }
 
 .drive,
