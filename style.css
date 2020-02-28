@@ -64,7 +64,9 @@ img {
   margin-top: 100px;
   width: 60%;
 }
-
+h2 {
+  padding-bottom: 10px;
+}
 .drive,
 .ride {
   width: 195px;
