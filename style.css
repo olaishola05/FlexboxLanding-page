@@ -42,12 +42,14 @@ img {
 }
 
 .photo {
-  width: 50%;
+  width: 48%;
+  padding-right: 10px;
 }
 
 .caption {
-  width: 70%;
+  width: 60%;
   margin-top: 25%;
+  margin-left: 5px;
 }
 
 .caption h1 {
@@ -68,8 +70,20 @@ img {
   width: 195px;
 }
 
+a[href="#Login"] {
+  float: right;
+}
+a[href="#signup"] {
+  float: right;
+}
 .btn {
   border-radius: 2px;
   margin-top: 5px;
-  padding: 5px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #008cba;
+  color: white;
 }
